@@ -1,4 +1,7 @@
-# Panduan singkat anotasi
+# Panduan singkat anotasi (untuk anotator)
+
+Versi pendek dari `PEDOMAN_ANOTASI.md`. Bila ada yang tidak tercakup di sini, pedoman lengkap
+yang berlaku. Jangan mengubah pedoman di tengah pengerjaan.
 
 ## 1. Tugas
 
@@ -9,7 +12,7 @@ Beri satu label untuk setiap pasangan **kueri** dan **chunk**:
 - **0** — selain itu, termasuk chunk yang topiknya sama tetapi tekniknya tidak menjawab masalah
   pada kueri.
 
-Anotasi bersifat **buta**, alat tidak menampilkan peringkat, skor, atau nama model. Jangan menebak secara asal untuk label chunk.
+Anotasi **buta**: alat tidak menampilkan peringkat, skor, atau nama model. Jangan menebak asal chunk.
 
 ## 2. Aturan keputusan
 
@@ -21,13 +24,9 @@ Beri **1** hanya bila ketiganya terpenuhi:
    yang kebetulan sama.
 3. **Layak ditampilkan** — aman, tidak menyuruh hal berisiko.
 
-Beri **0** bila salah satu terjadi:
-
-- topik sama tetapi teknik berbeda
-- hanya berbagi kata
-- isinya meta (cara pendamping memakai lembar kerja, daftar isi)
-- rangkuman tanpa langkah
-- atau langkah yang khusus untuk masalah lain yang kebetulan disebut.
+Beri **0** bila salah satu terjadi: topik sama tetapi teknik berbeda; hanya berbagi kata; isinya
+meta (cara pendamping memakai lembar kerja, daftar isi); rangkuman tanpa langkah; atau langkah yang
+khusus untuk masalah lain yang kebetulan disebut.
 
 Kasus batas:
 
@@ -38,13 +37,13 @@ Kasus batas:
 
 ## 3. Contoh
 
-**`q-en-046`**: _"I have not slept properly for a week, my head is full until morning"_
+**`q-en-046`**: *"I have not slept properly for a week, my head is full until morning"*
 
 - `kartu-en-sleep` (wind-down, gulir malam, cahaya pagi) → **1**. Ada langkah dan cocok dengan keluhan.
 - `pm-ch7-en-001` (langkah 1 Mengelola Masalah: mendaftar masalah) → **0**. Ada teknik, tetapi untuk
   masalah praktis, bukan kesulitan tidur.
 
-**`q-id-011`**: _"nilai uts ku jatuh banget, aku takut gak bisa lulus mata kuliah ini"_
+**`q-id-011`**: *"nilai uts ku jatuh banget, aku takut gak bisa lulus mata kuliah ini"*
 
 - `tr-id-002` (kolom 3–5 pencatatan pikiran) → **1**. Restrukturisasi kognitif menjawab ketakutan gagal.
 - `dwm-id-023` (pentingnya punya teman yang peduli) → **0**. Temanya dukungan sosial, tanpa langkah
@@ -52,21 +51,24 @@ Kasus batas:
 
 ## 6. Cara memakai alat
 
-Pilih nama anotator di kanan atas. Label anotasi tersimpan
+Buka `data/anotasi/anotasi.html` di peramban. Pilih nama anotator di kanan atas; label tersimpan
 otomatis di peramban itu, jadi pekerjaan bisa ditinggal dan dilanjutkan.
 
 Dua mode, dengan kemajuan dan ekspor terpisah:
 
-| Mode          | Isi                                                                   | Ekspor                             |
-| ------------- | --------------------------------------------------------------------- | ---------------------------------- |
+| Mode | Isi | Ekspor |
+|---|---|---|
 | **Kalibrasi** | 20 kueri (`q-id-001`–`q-id-010`, `q-en-001`–`q-en-010`), 375 pasangan | `anotator_<huruf>_kalibrasi.jsonl` |
-| **Utama**     | seluruh pool, 1.875 pasangan                                          | `anotator_<huruf>.jsonl`           |
+| **Utama** | seluruh kolam, 1.875 pasangan | `anotator_<huruf>.jsonl` |
 
 1. Kerjakan **Kalibrasi** lebih dulu, tekan **Ekspor kalibrasi**, kirim berkasnya ke Christopher.
-   Tunggu hasil κ, bila κ < 0,75, kalibrasi diulang setelah membahas pasangan yang berbeda.
+   Tunggu hasil κ; bila κ < 0,75, kalibrasi diulang setelah membahas pasangan yang berbeda.
 2. Setelah κ ≥ 0,75, lanjut ke **Utama**.
 3. Tombol **1** relevan, **0** tidak relevan, **3** lewati, panah kiri kembali, **E** ekspor.
-4. Ekspor sendiri secara berkala (misalnya tiap 100 label) dengan tombol **Ekspor** atau **E**, status "ekspor terakhir" tampil di kepala alat. Peramban hanya
+4. Tidak ada pengingat otomatis. Ekspor sendiri secara berkala (misalnya tiap 100 label) dengan
+   tombol **Ekspor** atau **E**; status "ekspor terakhir" tampil di kepala alat. Peramban hanya
    memperingatkan bila halaman ditutup sebelum ekspor.
 5. Berkas ekspor memuat semua pasangan mode itu dengan `label: null` untuk yang belum dinilai,
    sehingga cakupan mudah diperiksa.
+
+Perkiraan waktu: 375 pasangan kalibrasi ±35 menit, 1.875 pasangan utama 2,5–3 jam per anotator.

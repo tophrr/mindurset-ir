@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+build/
+logs/
+data/anotasi/cache_*.jsonl
+hasil/*.npy

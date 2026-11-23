@@ -1,0 +1,100 @@
+### q-en-001 | depresi
+lately I feel empty, even things I used to enjoy do not interest me at all
+### q-en-002 | depresi
+I am so tired of myself, getting through an ordinary day feels heavier than it should
+### q-en-003 | depresi
+for a month my mood has stayed low and I just want to sleep and avoid everyone
+### q-en-004 | depresi
+some days I wonder what the point of any of this is
+### q-en-005 | depresi
+there is an emptiness I cannot really explain, like I am moving without a direction
+### q-en-006 | depresi
+I want to cry at night and cannot say why, then I have to sit in class the next morning
+### q-en-007 | depresi
+everything that used to make me happy now feels flat
+### q-en-008 | depresi
+I feel alone even though I have friends, I cannot bring myself to tell them anything
+### q-en-009 | depresi
+I have lost all momentum, work keeps piling up and I just stare at it
+### q-en-010 | depresi
+sometimes I think people would be better off without me around
+### q-en-011 | akademik
+my midterm score dropped badly and now I worry about failing this course
+### q-en-012 | akademik
+I study every night and still do not understand, it makes me feel stupid
+### q-en-013 | akademik
+my thesis has been stuck for two months, opening the laptop makes me panic
+### q-en-014 | akademik
+my proposal defence is tomorrow and I am not ready, my heart keeps racing
+### q-en-015 | akademik
+my supervisor is impossible to reach, I am scared I will not graduate this year
+### q-en-016 | akademik
+I think I chose the wrong major, every class feels like proof I do not belong
+### q-en-017 | akademik
+I took too many credits this term and now I cannot finish anything
+### q-en-018 | akademik
+group work keeps landing on me, I end up doing almost all of it and I resent it
+### q-en-019 | akademik
+I have to present tomorrow and I am terrified people will laugh at me
+### q-en-020 | akademik
+my grades slipped and my parents will be disappointed, I cannot tell them
+### q-en-021 | akademik
+I failed this course twice and now I cannot make myself try again
+### q-en-022 | akademik
+there is an exam tomorrow and my mind will not stay on the material
+### q-en-023 | karier
+my internship ends next month, I have no offer yet and my savings are almost gone
+### q-en-024 | karier
+I am afraid of being laid off, my manager keeps hinting at performance
+### q-en-025 | karier
+next semester tuition is not covered and my parents are struggling too
+### q-en-026 | karier
+working while studying has worn me out, I am tired all the time
+### q-en-027 | karier
+I just started this job and feel incompetent, I am scared of making mistakes
+### q-en-028 | karier
+my salary is gone before the month ends and I do not know how to manage it
+### q-en-029 | relasi
+we split up last week and I still think about them every day
+### q-en-030 | relasi
+my partner replies less and less and I am afraid they are seeing someone else
+### q-en-031 | relasi
+my parents do not approve of my relationship and I do not know whose side to take
+### q-en-032 | relasi
+we have been together five years and now there is nothing left to talk about
+### q-en-033 | relasi
+I ran into my ex on campus and my head has been a mess since
+### q-en-034 | relasi
+they left without a clear reason and I keep feeling I was not worth staying for
+### q-en-035 | relasi
+I panic whenever they leave, I am scared of losing them constantly
+### q-en-036 | pertemanan
+my friends seem to have drifted away since I stopped joining them
+### q-en-037 | pertemanan
+I do not have a close friend here, campus conversations stay polite and empty
+### q-en-038 | pertemanan
+my friends think I shared something private, it was not me, and now they ignore me
+### q-en-039 | pertemanan
+my roommate is loud until midnight, I cannot rest and it is making me irritable
+### q-en-040 | pertemanan
+I am always the one who gives in, and I am tired of it
+### q-en-041 | pertemanan
+I am scared to speak in the group chat after being laughed at once
+### q-en-042 | keluarga
+my parents fight constantly at home and I cannot focus on anything
+### q-en-043 | keluarga
+I am always compared to my older sibling and I never feel enough
+### q-en-044 | keluarga
+I look after my younger siblings while studying and I have nothing left
+### q-en-045 | keluarga
+my mother is ill and I am far from home, the guilt does not stop
+### q-en-046 | tidur
+I have not slept properly for a week, my head is full until morning
+### q-en-047 | tidur
+I wake at three and cannot fall back asleep, and I have an exam tomorrow
+### q-en-048 | tidur
+I need my phone to feel sleepy and then suddenly it is two in the morning
+### q-en-049 | tidur
+my sleep is upside down, exhausted during the day and awake at night
+### q-en-050 | tidur
+I am tired but cannot sleep, closing my eyes just brings the task list back

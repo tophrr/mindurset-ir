@@ -1,0 +1,20 @@
+{
+  "mode": "sentence-transformers",
+  "model": "BAAI/bge-m3",
+  "device": "cuda",
+  "fp16": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "chunk": 153,
+  "kueri": 100,
+  "kandidat": 1380,
+  "waktu_indeks_detik": 5.33,
+  "waktu_indeks_per_chunk_ms": 34.8,
+  "latensi_kueri_ms": {
+    "rata": 22.11,
+    "median": 20.03,
+    "p95": 23.32,
+    "maks": 182.28
+  },
+  "rrf_k": 60,
+  "k": 10
+}

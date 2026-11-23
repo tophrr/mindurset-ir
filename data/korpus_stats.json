@@ -1,0 +1,130 @@
+{
+  "per_bahasa": {
+    "en": {
+      "chunk": 77,
+      "kata": 22730,
+      "token": 29004,
+      "token_median": 341,
+      "token_min": 249,
+      "token_maks": 500,
+      "di_bawah_300": 1,
+      "di_atas_500": 0,
+      "halaman_tercakup": 114
+    },
+    "id": {
+      "chunk": 76,
+      "kata": 19749,
+      "token": 27085,
+      "token_median": 330.0,
+      "token_min": 199,
+      "token_maks": 491,
+      "di_bawah_300": 3,
+      "di_atas_500": 0,
+      "halaman_tercakup": 116
+    }
+  },
+  "per_sumber": {
+    "mindurset-cards-v1": {
+      "en": {
+        "chunk": 7,
+        "kata": 1978,
+        "token": 2491,
+        "token_median": 357,
+        "token_min": 341,
+        "token_maks": 369,
+        "di_bawah_300": 0,
+        "di_atas_500": 0,
+        "halaman_tercakup": null
+      },
+      "id": {
+        "chunk": 7,
+        "kata": 1713,
+        "token": 2319,
+        "token_median": 333,
+        "token_min": 307,
+        "token_maks": 352,
+        "di_bawah_300": 0,
+        "di_atas_500": 0,
+        "halaman_tercakup": null
+      }
+    },
+    "modul-thought-record": {
+      "en": {
+        "chunk": 4,
+        "kata": 1177,
+        "token": 1536,
+        "token_median": 357.0,
+        "token_min": 347,
+        "token_maks": 475,
+        "di_bawah_300": 0,
+        "di_atas_500": 0,
+        "halaman_tercakup": null
+      },
+      "id": {
+        "chunk": 3,
+        "kata": 1060,
+        "token": 1434,
+        "token_median": 476,
+        "token_min": 476,
+        "token_maks": 482,
+        "di_bawah_300": 0,
+        "di_atas_500": 0,
+        "halaman_tercakup": null
+      }
+    },
+    "who-dwm-2020-eng": {
+      "en": {
+        "chunk": 32,
+        "kata": 7766,
+        "token": 10308,
+        "token_median": 319.5,
+        "token_min": 310,
+        "token_maks": 355,
+        "di_bawah_300": 0,
+        "di_atas_500": 0,
+        "halaman_tercakup": 111
+      }
+    },
+    "who-dwm-2020-ind": {
+      "id": {
+        "chunk": 32,
+        "kata": 6916,
+        "token": 10063,
+        "token_median": 315.5,
+        "token_min": 199,
+        "token_maks": 336,
+        "di_bawah_300": 1,
+        "di_atas_500": 0,
+        "halaman_tercakup": 113
+      }
+    },
+    "who-pm-18-5-eng": {
+      "en": {
+        "chunk": 34,
+        "kata": 11809,
+        "token": 14669,
+        "token_median": 478.0,
+        "token_min": 249,
+        "token_maks": 500,
+        "di_bawah_300": 1,
+        "di_atas_500": 0,
+        "halaman_tercakup": 29
+      }
+    },
+    "who-pm-18-5-id": {
+      "id": {
+        "chunk": 34,
+        "kata": 10060,
+        "token": 13269,
+        "token_median": 390.5,
+        "token_min": 221,
+        "token_maks": 491,
+        "di_bawah_300": 2,
+        "di_atas_500": 0,
+        "halaman_tercakup": 29
+      }
+    }
+  },
+  "total_chunk": 153,
+  "total_token": 56089
+}

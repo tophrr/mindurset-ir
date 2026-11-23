@@ -1,0 +1,100 @@
+### q-id-001 | depresi
+belakangan ini aku ngerasa hampa banget, bahkan hal yang biasanya aku suka gak bikin semangat lagi
+### q-id-002 | depresi
+aku capek banget sama diri sendiri, tiap hari rasanya berat buat bangun dan ngapa-ngapain
+### q-id-003 | depresi
+udah sebulan ini moodku jelek terus, aku cuma pengen tidur seharian dan gak ketemu siapa-siapa
+### q-id-004 | depresi
+aku ngerasa hidupku gak ada artinya, semua yang aku lakuin rasanya percuma
+### q-id-005 | depresi
+ada perasaan kosong yang susah aku jelasin, kayak aku jalan tapi gak ada tujuannya
+### q-id-006 | depresi
+aku pengen nangis tiap malam tapi gak tahu kenapa, paginya harus tetap masuk kelas
+### q-id-007 | depresi
+semua yang dulu bikin aku seneng sekarang rasanya datar aja
+### q-id-008 | depresi
+aku ngerasa sendirian walaupun banyak teman, susah banget cerita ke orang
+### q-id-009 | depresi
+aku kayak kehilangan semangat, males ngapa-ngapain, tugas numpuk tapi aku diem aja
+### q-id-010 | depresi
+kadang aku mikir apa gunanya aku ada, rasanya semua orang lebih baik tanpa aku
+### q-id-011 | akademik
+nilai uts ku jatuh banget, aku takut gak bisa lulus mata kuliah ini
+### q-id-012 | akademik
+aku udah belajar tiap malam tapi tetap gak paham, rasanya aku bodoh banget
+### q-id-013 | akademik
+skripsi ku mandek dari dua bulan lalu, tiap buka laptop langsung panik
+### q-id-014 | akademik
+besok sidang proposal dan aku belum siap sama sekali, jantungku deg-degan terus
+### q-id-015 | akademik
+dosen pembimbing susah ditemui, aku jadi takut gak lulus tahun ini
+### q-id-016 | akademik
+aku kayaknya salah jurusan, tiap kuliah aku ngerasa gak cocok dan gak mampu
+### q-id-017 | akademik
+semester ini aku ambil banyak sks, sekarang aku kewalahan dan gak bisa ngerjain apa-apa
+### q-id-018 | akademik
+tugas kelompok numpuk, aku ngerjain sendiri hampir semuanya dan itu bikin aku kesal
+### q-id-019 | akademik
+aku takut presentasi besok, takut kalau teman-teman ngetawain aku di depan kelas
+### q-id-020 | akademik
+nilai ipk ku turun, orang tuaku pasti kecewa, aku gak berani ngomong ke mereka
+### q-id-021 | akademik
+aku udah dua kali gagal mata kuliah ini, sekarang aku males banget ngulang
+### q-id-022 | akademik
+besok ada ujian dan aku sama sekali gak bisa fokus, pikiranku kemana-mana
+### q-id-023 | karier
+magang ku selesai bulan depan, aku belum dapat kerjaan dan uang tabungan makin habis
+### q-id-024 | karier
+aku takut di phk, tiap rapat atasan selalu nyindir soal performa
+### q-id-025 | karier
+biaya kuliah semester depan belum ada, orang tuaku juga sedang susah
+### q-id-026 | karier
+aku kerja sambil kuliah dan sekarang rasanya gak sanggup lagi, badan capek terus
+### q-id-027 | karier
+aku baru mulai kerja dan ngerasa gak kompeten, tiap hari takut salah
+### q-id-028 | karier
+gajiku habis buat kebutuhan, aku bingung harus ngatur gimana
+### q-id-029 | relasi
+aku baru putus, dia bilang udah gak nyaman, tapi aku masih mikirin dia tiap hari
+### q-id-030 | relasi
+pacar ku jarang bales chat sekarang, aku takut dia selingkuh
+### q-id-031 | relasi
+orang tuaku gak setuju hubungan kami, aku bingung harus pilih siapa
+### q-id-032 | relasi
+kami pacaran lima tahun tapi sekarang kayak gak ada obrolan lagi
+### q-id-033 | relasi
+aku ketemu mantan di kampus dan sejak itu pikiranku kacau lagi
+### q-id-034 | relasi
+dia ninggalin aku tanpa alasan yang jelas, aku ngerasa gak berharga
+### q-id-035 | relasi
+aku takut kehilangan dia, tiap dia pergi aku cemas berlebihan
+### q-id-036 | pertemanan
+teman-teman ku kayak menjauh sejak aku jarang ikut nongkrong
+### q-id-037 | pertemanan
+aku ngerasa gak punya teman dekat, di kampus cuma ngobrol basa-basi
+### q-id-038 | pertemanan
+aku dituduh nyebarin rahasia teman, padahal bukan aku, dan sekarang mereka diemin aku
+### q-id-039 | pertemanan
+teman sekamarku berisik terus sampai malam, aku gak bisa istirahat dan jadi kesal
+### q-id-040 | pertemanan
+aku selalu jadi orang yang ngalah di circle ku, sekarang aku capek
+### q-id-041 | pertemanan
+aku takut ngomong di grup karena pernah ditertawakan waktu ngasih pendapat
+### q-id-042 | keluarga
+orang tuaku bertengkar terus di rumah, aku gak betah dan susah fokus
+### q-id-043 | keluarga
+aku selalu dibandingin sama kakak ku, rasanya aku gak pernah cukup
+### q-id-044 | keluarga
+aku harus jaga adik-adik sambil kuliah, sekarang tenagaku habis
+### q-id-045 | keluarga
+ibuku sakit dan aku jauh dari rumah, aku ngerasa bersalah terus
+### q-id-046 | tidur
+udah seminggu ini aku susah tidur, kepalaku penuh pikiran sampai pagi
+### q-id-047 | tidur
+aku selalu bangun jam tiga dan gak bisa tidur lagi, besok harus ujian
+### q-id-048 | tidur
+aku butuh main hp dulu biar ngantuk, tapi malah jadi makin malam
+### q-id-049 | tidur
+tidurku berantakan, siang ngantuk banget dan malam malah segar
+### q-id-050 | tidur
+aku capek tapi gak bisa tidur, tiap tutup mata yang kepikiran malah tugas

@@ -1,0 +1,20 @@
+{
+  "mode": "sentence-transformers",
+  "model": "BAAI/bge-m3",
+  "device": "cpu",
+  "fp16": false,
+  "gpu": null,
+  "chunk": 153,
+  "kueri": 100,
+  "kandidat": 1379,
+  "waktu_indeks_detik": 181.01,
+  "waktu_indeks_per_chunk_ms": 1183.1,
+  "latensi_kueri_ms": {
+    "rata": 227.47,
+    "median": 201.25,
+    "p95": 333.64,
+    "maks": 483.63
+  },
+  "rrf_k": 60,
+  "k": 10
+}

@@ -1,0 +1,951 @@
+{
+  "pasangan_total": 1875,
+  "pasangan_tambahan": 0,
+  "kandidat_dari_dense": 1380,
+  "kueri": 100,
+  "kandidat_per_kueri": {
+    "min": 15,
+    "maks": 24,
+    "median": 19.0,
+    "rata": 18.8
+  },
+  "irisan_m1_m2": {
+    "rata": 8.4,
+    "min": 5,
+    "maks": 10
+  },
+  "per_bahasa": {
+    "id": {
+      "pasangan": 936,
+      "kueri": 50
+    },
+    "en": {
+      "pasangan": 939,
+      "kueri": 50
+    }
+  },
+  "kalibrasi": [
+    "q-id-001",
+    "q-id-002",
+    "q-id-003",
+    "q-id-004",
+    "q-id-005",
+    "q-id-006",
+    "q-id-007",
+    "q-id-008",
+    "q-id-009",
+    "q-id-010",
+    "q-en-001",
+    "q-en-002",
+    "q-en-003",
+    "q-en-004",
+    "q-en-005",
+    "q-en-006",
+    "q-en-007",
+    "q-en-008",
+    "q-en-009",
+    "q-en-010"
+  ],
+  "per_kueri": [
+    {
+      "qid": "q-id-001",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-002",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-003",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 20,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-004",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-005",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-006",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-007",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 17,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-008",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-009",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-010",
+      "bahasa": "id",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-011",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 17,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-012",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-013",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-014",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 20,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-015",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 19,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-016",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 19,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-017",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 21,
+      "hanya_m1": 4,
+      "hanya_m2": 4,
+      "irisan": 6
+    },
+    {
+      "qid": "q-id-018",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-019",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-020",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-021",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 17,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-022",
+      "bahasa": "id",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-id-023",
+      "bahasa": "id",
+      "topik": "karier",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-024",
+      "bahasa": "id",
+      "topik": "karier",
+      "kandidat": 18,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-025",
+      "bahasa": "id",
+      "topik": "karier",
+      "kandidat": 21,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-026",
+      "bahasa": "id",
+      "topik": "karier",
+      "kandidat": 22,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-id-027",
+      "bahasa": "id",
+      "topik": "karier",
+      "kandidat": 23,
+      "hanya_m1": 5,
+      "hanya_m2": 5,
+      "irisan": 5
+    },
+    {
+      "qid": "q-id-028",
+      "bahasa": "id",
+      "topik": "karier",
+      "kandidat": 17,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-029",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-030",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 19,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-031",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-032",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-033",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-034",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-035",
+      "bahasa": "id",
+      "topik": "relasi",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-036",
+      "bahasa": "id",
+      "topik": "pertemanan",
+      "kandidat": 22,
+      "hanya_m1": 5,
+      "hanya_m2": 5,
+      "irisan": 5
+    },
+    {
+      "qid": "q-id-037",
+      "bahasa": "id",
+      "topik": "pertemanan",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-038",
+      "bahasa": "id",
+      "topik": "pertemanan",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-039",
+      "bahasa": "id",
+      "topik": "pertemanan",
+      "kandidat": 20,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-id-040",
+      "bahasa": "id",
+      "topik": "pertemanan",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-041",
+      "bahasa": "id",
+      "topik": "pertemanan",
+      "kandidat": 19,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-042",
+      "bahasa": "id",
+      "topik": "keluarga",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-043",
+      "bahasa": "id",
+      "topik": "keluarga",
+      "kandidat": 16,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-044",
+      "bahasa": "id",
+      "topik": "keluarga",
+      "kandidat": 22,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-id-045",
+      "bahasa": "id",
+      "topik": "keluarga",
+      "kandidat": 15,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-id-046",
+      "bahasa": "id",
+      "topik": "tidur",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-id-047",
+      "bahasa": "id",
+      "topik": "tidur",
+      "kandidat": 16,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-id-048",
+      "bahasa": "id",
+      "topik": "tidur",
+      "kandidat": 16,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-049",
+      "bahasa": "id",
+      "topik": "tidur",
+      "kandidat": 16,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-id-050",
+      "bahasa": "id",
+      "topik": "tidur",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-001",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-002",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-003",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-004",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 18,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-005",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-006",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-007",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-008",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-009",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-010",
+      "bahasa": "en",
+      "topik": "depresi",
+      "kandidat": 19,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-011",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-012",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 17,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-013",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 20,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-014",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 17,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-015",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-016",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 20,
+      "hanya_m1": 4,
+      "hanya_m2": 4,
+      "irisan": 6
+    },
+    {
+      "qid": "q-en-017",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-018",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 19,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-019",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 19,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-020",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-021",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-022",
+      "bahasa": "en",
+      "topik": "akademik",
+      "kandidat": 16,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-023",
+      "bahasa": "en",
+      "topik": "karier",
+      "kandidat": 20,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-024",
+      "bahasa": "en",
+      "topik": "karier",
+      "kandidat": 21,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-025",
+      "bahasa": "en",
+      "topik": "karier",
+      "kandidat": 20,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-026",
+      "bahasa": "en",
+      "topik": "karier",
+      "kandidat": 24,
+      "hanya_m1": 5,
+      "hanya_m2": 5,
+      "irisan": 5
+    },
+    {
+      "qid": "q-en-027",
+      "bahasa": "en",
+      "topik": "karier",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-028",
+      "bahasa": "en",
+      "topik": "karier",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-029",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-030",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 18,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-031",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 16,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-032",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 18,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-033",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 20,
+      "hanya_m1": 0,
+      "hanya_m2": 0,
+      "irisan": 10
+    },
+    {
+      "qid": "q-en-034",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 17,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-035",
+      "bahasa": "en",
+      "topik": "relasi",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-036",
+      "bahasa": "en",
+      "topik": "pertemanan",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-037",
+      "bahasa": "en",
+      "topik": "pertemanan",
+      "kandidat": 20,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-038",
+      "bahasa": "en",
+      "topik": "pertemanan",
+      "kandidat": 18,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-039",
+      "bahasa": "en",
+      "topik": "pertemanan",
+      "kandidat": 19,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-040",
+      "bahasa": "en",
+      "topik": "pertemanan",
+      "kandidat": 20,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-041",
+      "bahasa": "en",
+      "topik": "pertemanan",
+      "kandidat": 21,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-042",
+      "bahasa": "en",
+      "topik": "keluarga",
+      "kandidat": 20,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-043",
+      "bahasa": "en",
+      "topik": "keluarga",
+      "kandidat": 17,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-044",
+      "bahasa": "en",
+      "topik": "keluarga",
+      "kandidat": 20,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-045",
+      "bahasa": "en",
+      "topik": "keluarga",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-046",
+      "bahasa": "en",
+      "topik": "tidur",
+      "kandidat": 18,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-047",
+      "bahasa": "en",
+      "topik": "tidur",
+      "kandidat": 16,
+      "hanya_m1": 1,
+      "hanya_m2": 1,
+      "irisan": 9
+    },
+    {
+      "qid": "q-en-048",
+      "bahasa": "en",
+      "topik": "tidur",
+      "kandidat": 21,
+      "hanya_m1": 3,
+      "hanya_m2": 3,
+      "irisan": 7
+    },
+    {
+      "qid": "q-en-049",
+      "bahasa": "en",
+      "topik": "tidur",
+      "kandidat": 19,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    },
+    {
+      "qid": "q-en-050",
+      "bahasa": "en",
+      "topik": "tidur",
+      "kandidat": 16,
+      "hanya_m1": 2,
+      "hanya_m2": 2,
+      "irisan": 8
+    }
+  ]
+}

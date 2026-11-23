@@ -1,16 +1,20 @@
 # Ringkasan adjudikasi A–B
 
 Data A adalah putaran kedua (`data/anotasi/anotator_a.jsonl`, 300 positif / 16,0%); B 319 positif /
-17,0%.
+17,0%. **Adjudikasi selesai** oleh Tora; hasilnya di `data/anotasi/adjudikasi_tora.jsonl`.
 
-Total pasangan berselisih: **341** dari 1.875 (18,2%).
+## Hasil
 
-| Arah | Jumlah |
+| Ukuran | Nilai |
 |---|---|
-| A=0, B=1 | 180 |
-| A=1, B=0 | 161 |
+| Pasangan berselisih | **341** dari 1.875 (18,2%) |
+| Putusan mengikuti A | 238 (70%) |
+| Putusan mengikuti B | 103 (30%) |
+| Putusan yang tidak mengikuti keduanya | 0 |
+| Positif hasil adjudikasi | 142 dari 341 |
+| Qrels final | 1.875 pasangan, **281 positif (15,0%)** |
 
-Sebaran hampir seimbang, jadi tidak ada anotator yang sistematis lebih longgar.
+Arah perselisihan sebelum adjudikasi: A=0/B=1 sebanyak 180, A=1/B=0 sebanyak 161.
 
 ## Per sumber
 
@@ -23,18 +27,21 @@ Sebaran hampir seimbang, jadi tidak ada anotator yang sistematis lebih longgar.
 | mindurset-cards-v1 | 38 | 232 | 16,4% |
 | who-pm-18-5-eng | 35 | 339 | 10,3% |
 
-Delapan kueri sudah sepakat penuh.
+Delapan kueri sudah sepakat penuh sebelum adjudikasi.
 
-## Cara kerja adjudikasi
+## Qrels final
 
-1. Buka `data/anotasi/adjudikasi.html` (341 pasangan; tiap baris memuat `label_a`, `label_b`, dan
-   `label_model` sebagai pendapat ketiga).
-2. Putuskan dengan tombol **1** / **0**, atau ikuti salah satu anotator (**A** / **B**); kotak alasan
-   opsional.
-3. Ekspor `adjudikasi_tora.jsonl`, simpan ke `data/anotasi/`.
-4. Qrels final dibentuk dengan
-   `python3 scripts/gabung_qrels.py --adjudikasi data/anotasi/adjudikasi_tora.jsonl`.
-   Skrip memakai 1.534 pasangan yang disepakati plus 341 hasil adjudikasi, dan berhenti bila masih ada
-   perselisihan yang belum diputuskan.
+`data/qrels_final.jsonl` dibentuk dari 1.534 pasangan yang disepakati plus 341 hasil adjudikasi dengan
+`python3 scripts/gabung_qrels.py --adjudikasi data/anotasi/adjudikasi_tora.jsonl`.
 
-Perkiraan waktu: 341 pasangan × 20–30 detik ≈ 2–3 jam.
+## Metrik dengan qrels final (88 kueri berlabel)
+
+| Konfigurasi | P@1 | P@5 | R@10 | MRR |
+|---|---|---|---|---|
+| M1 VSM TF-IDF | 0,239 | 0,189 | 0,533 | 0,390 |
+| M2 Okapi BM25 | 0,239 | 0,200 | 0,535 | 0,397 |
+| M3 BGE-M3 dense | 0,261 | 0,211 | 0,488 | 0,420 |
+| M4 RRF hibrida | **0,341** | **0,216** | **0,581** | **0,500** |
+
+Wilcoxon pada MRR: M4 vs M1 p = 0,014; M4 vs M2 p = 0,026; M4 vs M3 p = 0,024 — semua perbandingan
+dengan M4 kini signifikan. Urutan MRR: **M4 > M3 > M2 > M1**, jadi dense tidak lagi terakhir.

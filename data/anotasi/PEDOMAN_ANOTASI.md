@@ -86,7 +86,7 @@ Data A yang dipakai adalah **putaran kedua** (`ekspor/anotator_a.jsonl`, 300 pos
 putaran pertama diarsipkan sebagai `ekspor/anotator_a1_prakalibrasi.jsonl`.
 
 Setelah kalibrasi, A dan B masih berselisih pada **341 pasangan** (18,2%). Semua diselesaikan pihak
-ketiga (Christopher) dengan melihat kedua label, isi chunk, dan pendapat model penilai:
+ketiga (Tora) dengan melihat kedua label, isi chunk, dan pendapat model penilai:
 
 ```bash
 xdg-open data/anotasi/adjudikasi.html      # 341 pasangan, progress + ekspor sendiri
@@ -147,13 +147,13 @@ Perkiraan waktu: 375 pasangan kalibrasi ±35 menit, 1.875 pasangan utama 2,5–3
 ## 8. Catatan metodologis yang harus masuk naskah
 
 Kolam kandidat dibentuk dari 10 teratas **keempat** konfigurasi: M1 (VSM TF-IDF), M2 (Okapi BM25),
-M3 (BGE-M3 *dense*), dan M4 (RRF BM25+dense). Uji *dense* dijalankan ulang di `voyager-wsl`
-(RTX 4060, fp16) pada 18 November 2026 setelah korpus DWM dibangun ulang dengan ekstraksi
+M3 (BGE-M3 *dense*), dan M4 (RRF BM25+dense). Uji *dense* dijalankan ulang pada mesin GPU
+terpisah (fp16) pada 18 November 2026 setelah korpus DWM dibangun ulang dengan ekstraksi
 sadar-kolom, lalu kolam dirakit dari nol menjadi **1.875 pasangan** (936 Indonesia, 939 Inggris;
 15–24 kandidat per kueri). Karena keempat konfigurasi ikut menyumbang kandidat, skor M3 dan M4 tidak
 lagi bersifat batas bawah seperti pada rencana awal dengan dua model leksikal saja.
 
 Dua hal tetap perlu dinyatakan di IV.F. Pertama, kolam tetap tidak memuat dokumen yang tidak
 diangkat sepuluh teratas oleh konfigurasi mana pun, sehingga relevansi di luar kolam tidak terukur.
-Kedua, latensi M3 dan M4 diukur pada satu lingkungan CPU yang dispesifikasikan, yaitu Ryzen 9 7940HS
-(16 thread, torch fp32), bukan pada perangkat Android tempat aplikasi berjalan.
+Kedua, latensi M3 dan M4 diukur pada satu lingkungan CPU yang dispesifikasikan (16 thread,
+torch fp32), bukan pada perangkat Android tempat aplikasi berjalan.

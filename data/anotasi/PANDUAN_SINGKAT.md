@@ -61,7 +61,7 @@ Dua mode, dengan kemajuan dan ekspor terpisah:
 | **Kalibrasi** | 20 kueri (`q-id-001`–`q-id-010`, `q-en-001`–`q-en-010`), 375 pasangan | `anotator_<huruf>_kalibrasi.jsonl` |
 | **Utama** | seluruh kolam, 1.875 pasangan | `anotator_<huruf>.jsonl` |
 
-1. Kerjakan **Kalibrasi** lebih dulu, tekan **Ekspor kalibrasi**, kirim berkasnya ke Christopher.
+1. Kerjakan **Kalibrasi** lebih dulu, tekan **Ekspor kalibrasi**, kirim berkasnya ke Tora.
    Tunggu hasil κ; bila κ < 0,75, kalibrasi diulang setelah membahas pasangan yang berbeda.
 2. Setelah κ ≥ 0,75, lanjut ke **Utama**.
 3. Tombol **1** relevan, **0** tidak relevan, **3** lewati, panah kiri kembali, **E** ekspor.

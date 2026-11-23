@@ -3,7 +3,7 @@
   "model": "BAAI/bge-m3",
   "device": "cuda",
   "fp16": true,
-  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu": "GPU diskret (fp16)",
   "chunk": 153,
   "kueri": 100,
   "kandidat": 1380,

@@ -72,9 +72,9 @@ Kasus batas dan keputusannya.
    lalu hitung kesepakatan:
    ```bash
    cd /home/chrisg/Hermes/kec-ko-paper-uas
-   python3 eksperimen/retrieval_eval.py kappa \
-       --anotator-a data/anotasi/ekspor/anotator_a_kalibrasi.jsonl \
-       --anotator-b data/anotasi/ekspor/anotator_b_kalibrasi.jsonl
+   python3 scripts/retrieval_eval.py kappa \
+       --anotator-a data/anotasi/anotator_a_kalibrasi.jsonl \
+       --anotator-b data/anotasi/anotator_b_kalibrasi.jsonl
    ```
 3. Bila κ < 0,75, bahas pasangan yang berbeda (biasanya 10–20 pasangan), sepakati tafsiran aturan
    di atas, lalu **ulangi kalibrasi**. Hasil kalibrasi tidak dipakai sebagai data akhir.
@@ -82,8 +82,8 @@ Kasus batas dan keputusannya.
 
 ## 5. Adjudikasi
 
-Data A yang dipakai adalah **putaran kedua** (`ekspor/anotator_a.jsonl`, 300 positif / 16,0%);
-putaran pertama diarsipkan sebagai `ekspor/anotator_a1_prakalibrasi.jsonl`.
+Data A yang dipakai adalah **putaran kedua** (`data/anotasi/anotator_a.jsonl`, 300 positif / 16,0%).
+Putaran pertama tidak disertakan di repo ini.
 
 Setelah kalibrasi, A dan B masih berselisih pada **341 pasangan** (18,2%). Semua diselesaikan pihak
 ketiga (Tora) dengan melihat kedua label, isi chunk, dan pendapat model penilai:
@@ -94,12 +94,12 @@ xdg-open data/anotasi/adjudikasi.html      # 341 pasangan, progress + ekspor sen
 
 Alat menampilkan `label_a`, `label_b`, dan `label_model`; tombol **1**/**0** untuk putusan bebas,
 **A**/**B** untuk mengikuti salah satu anotator, kotak alasan opsional, dan ekspor
-`adjudikasi_tora.jsonl`. Simpan ke `data/anotasi/ekspor/`.
+`adjudikasi_tora.jsonl`. Simpan ke `data/anotasi/`.
 
 Qrels final dibentuk dengan:
 
 ```bash
-python3 eksperimen/gabung_qrels.py --adjudikasi data/anotasi/ekspor/adjudikasi_tora.jsonl
+python3 scripts/gabung_qrels.py --adjudikasi data/anotasi/adjudikasi_tora.jsonl
 ```
 
 Skrip memakai label yang disepakati (1.534 pasangan) dan `label_final` hasil adjudikasi (341
@@ -142,7 +142,7 @@ Perkiraan waktu: 375 pasangan kalibrasi ±35 menit, 1.875 pasangan utama 2,5–3
 | `anotator_a.jsonl`, `anotator_b.jsonl` | lembar kerja kosong, urutan diacak berbeda per anotator |
 | `ringkasan_kolam.json` | statistik kolam per kueri, termasuk irisan M1 dan M2, serta daftar kueri kalibrasi |
 | `anotasi.html` | alat anotasi satu berkas, data disematkan, tanpa server |
-| `ekspor/` | tempat menyimpan hasil ekspor JSONL (dibuat manual) |
+| `anotator_*_kalibrasi.jsonl` | ekspor mode Kalibrasi dari alat anotasi |
 
 ## 8. Catatan metodologis yang harus masuk naskah
 

@@ -1,15 +1,16 @@
 # Kesepakatan antar penilai: κ, PABAK, dan Krippendorff α
 
-Semua dihitung pada 1.875 pasangan yang sama (kolam 1.875, 100 kueri).
+Semua dihitung pada 1.875 pasangan yang sama (kolam 1.875, 100 kueri). Data A adalah putaran kedua
+(`data/anotasi/anotator_a.jsonl`, 300 positif / 16,0%); B 319 positif / 17,0%.
 
 | Pasangan | n | Kesepakatan mentah (po) | Kebetulan (pe) | κ | CI 95% | PABAK |
 |---|---|---|---|---|---|---|
-| A–B (dua manusia) | 1.875 | 0,662 | 0,563 | **0,227** | 0,189–0,268 | 0,324 |
-| Gemini–A | 1.875 | 0,734 | 0,561 | 0,394 | 0,355–0,431 | 0,468 |
-| Gemini–B | 1.875 | 0,765 | 0,710 | 0,188 | 0,138–0,240 | 0,530 |
-| Gemini–pplx | 1.875 | 0,889 | 0,681 | **0,653** | 0,608–0,694 | **0,778** |
-| pplx–A | 1.875 | 0,748 | 0,554 | 0,434 | 0,394–0,473 | 0,495 |
-| pplx–B | 1.875 | 0,764 | 0,687 | 0,245 | 0,195–0,298 | 0,527 |
+| A–B (dua manusia) | 1.875 | 0,818 | 0,724 | **0,340** | 0,284–0,396 | 0,636 |
+| Gemini–A | 1.875 | 0,850 | 0,717 | 0,469 | 0,419–0,524 | 0,699 |
+| Gemini–B | 1.875 | 0,765 | 0,710 | 0,188 | 0,137–0,241 | 0,530 |
+| Gemini–pplx | 1.875 | 0,889 | 0,681 | **0,653** | 0,608–0,697 | **0,778** |
+| pplx–A | 1.875 | 0,856 | 0,693 | 0,531 | 0,481–0,581 | 0,712 |
+| pplx–B | 1.875 | 0,764 | 0,687 | 0,245 | 0,195–0,296 | 0,527 |
 
 PABAK = 2·po − 1 (prevalence-adjusted bias-adjusted kappa).
 
@@ -17,8 +18,8 @@ PABAK = 2·po − 1 (prevalence-adjusted bias-adjusted kappa).
 
 | Penilai | α |
 |---|---|
-| Empat penilai (A, B, Gemini, pplx) | 0,349 |
-| Dua manusia (A, B) | 0,175 |
+| Empat penilai (A, B, Gemini, pplx) | 0,407 |
+| Dua manusia (A, B) | 0,340 |
 | Dua mesin (Gemini, pplx) | 0,652 |
 
 ## Mengapa κ rendah padahal kesepakatan mentah tinggi
@@ -33,10 +34,9 @@ pe 0,710 (keduanya menilai 17–18% positif). PABAK-nya 0,530.
 
 ## Di mana ambiguitasnya berada
 
-Dari 208 pasangan yang dinilai berbeda oleh kedua model, A memberi label 1 pada **67,3%**
-(di seluruh data 40,5%), sedangkan B pada 22,1% (seluruh data 17,0%). Artinya pada
-pasangan yang paling meragukan, A meloloskan dua pertiga dan B menolak hampir empat per
-lima.
+Dari 208 pasangan yang dinilai berbeda oleh kedua model, A memberi label 1 pada **35,1%**
+(di seluruh data 16,0%), sedangkan B pada 22,1% (seluruh data 17,0%). Pada arah pplx=1 dan
+Gemini=0, manusia lebih sering menilai 1 (A 41%, B 28%) daripada arah sebaliknya (A 24%, B 10%).
 
 ## Implikasi untuk naskah
 
@@ -46,6 +46,6 @@ lima.
    anotasi; yang dilaporkan adalah nilai tercapai dan penjelasannya.
 3. Landis–Koch menempatkan 0,61–0,80 sebagai *substantial*; pasangan dua mesin (0,653)
    masuk di sana, dan PABAK-nya 0,778 hampir menyentuh ambang.
-4. Pasangan manusia (0,227; α 0,175) tetap jauh di bawah dua mesin (0,652). Selisih ini
+4. Pasangan manusia (0,340; α 0,340) masih di bawah dua mesin (0,652). Selisih ini
    adalah temuan yang layak dilaporkan di IV.B, bukan sesuatu yang bisa dijelaskan oleh
    ambang.

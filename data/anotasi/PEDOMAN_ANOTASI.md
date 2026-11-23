@@ -94,12 +94,12 @@ xdg-open data/anotasi/adjudikasi.html      # 341 pasangan, progress + ekspor sen
 
 Alat menampilkan `label_a`, `label_b`, dan `label_model`; tombol **1**/**0** untuk putusan bebas,
 **A**/**B** untuk mengikuti salah satu anotator, kotak alasan opsional, dan ekspor
-`adjudikasi_christopher.jsonl`. Simpan ke `data/anotasi/ekspor/`.
+`adjudikasi_tora.jsonl`. Simpan ke `data/anotasi/ekspor/`.
 
 Qrels final dibentuk dengan:
 
 ```bash
-python3 eksperimen/gabung_qrels.py --adjudikasi data/anotasi/ekspor/adjudikasi_christopher.jsonl
+python3 eksperimen/gabung_qrels.py --adjudikasi data/anotasi/ekspor/adjudikasi_tora.jsonl
 ```
 
 Skrip memakai label yang disepakati (1.534 pasangan) dan `label_final` hasil adjudikasi (341

@@ -8,7 +8,7 @@ Aturan:
       (kecuali `--paksa-model`, yang memakai pendapat model penilai sebagai cadangan).
 
 Pemakaian:
-    python3 eksperimen/gabung_qrels.py --adjudikasi data/anotasi/ekspor/adjudikasi_christopher.jsonl
+    python3 eksperimen/gabung_qrels.py --adjudikasi data/anotasi/ekspor/adjudikasi_tora.jsonl
 """
 
 from __future__ import annotations
@@ -38,7 +38,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--a", default=str(ANOT / "anotator_a.jsonl"))
     ap.add_argument("--b", default=str(ANOT / "anotator_b.jsonl"))
-    ap.add_argument("--adjudikasi", default=str(ANOT / "adjudikasi_christopher.jsonl"))
+    ap.add_argument("--adjudikasi", default=str(ANOT / "adjudikasi_tora.jsonl"))
     ap.add_argument("--keluaran", default=str(ROOT / "data" / "qrels_final.jsonl"))
     ap.add_argument("--paksa-model", action="store_true",
                     help="pakai label_model untuk perselisihan yang belum diputuskan")

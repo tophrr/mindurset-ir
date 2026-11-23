@@ -136,7 +136,7 @@ function ekspor() {
   const blob = new Blob([baris.join("\n") + "\n"], {type:"application/x-ndjson"});
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "adjudikasi_christopher.jsonl";
+  a.download = "adjudikasi_tora.jsonl";
   a.click();
   state.ekspor = diputuskan();
   simpan(); render();

@@ -1,0 +1,5 @@
+# Reproduksi evaluasi dan pengodean BGE-M3 (ONNX, tanpa torch)
+# versi di bawah adalah yang dipakai saat angka pada naskah dihasilkan
+numpy==2.5.4
+onnxruntime==1.31.0
+tokenizers==0.23.3

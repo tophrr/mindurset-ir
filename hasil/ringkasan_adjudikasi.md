@@ -32,7 +32,7 @@ Delapan kueri sudah sepakat penuh sebelum adjudikasi.
 ## Qrels final
 
 `data/qrels_final.jsonl` dibentuk dari 1.534 pasangan yang disepakati plus 341 hasil adjudikasi dengan
-`python3 scripts/gabung_qrels.py --adjudikasi data/anotasi/adjudikasi_tora.jsonl`.
+`python3 scripts/qrels/gabung_qrels.py --adjudikasi data/anotasi/adjudikasi_tora.jsonl`.
 
 ## Metrik dengan qrels final (88 kueri berlabel)
 

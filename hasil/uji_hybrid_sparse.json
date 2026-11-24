@@ -61,7 +61,7 @@
   "rrf_k": 60,
   "bobot_dense": 0.5,
   "embedding": {
-    "dense": "/home/chrisg/Hermes/kec-ko-paper-uas/hasil/emb_chunk_cls.npy",
+    "dense": "hasil/emb_chunk_cls.npy (dihitung di mesin eksperimen)",
     "pooling": "cls",
     "presisi": "onnx int8"
   },

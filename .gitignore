@@ -4,3 +4,4 @@ build/
 logs/
 data/anotasi/cache_*.jsonl
 hasil/*.npy
+!hasil/embedding/*.npy

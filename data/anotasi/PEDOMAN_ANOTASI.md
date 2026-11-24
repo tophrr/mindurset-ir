@@ -71,7 +71,7 @@ Kasus batas dan keputusannya.
 2. Ekspor lewat tombol mode Kalibrasi (`anotator_a_kalibrasi.jsonl`, `anotator_b_kalibrasi.jsonl`),
    lalu hitung kesepakatan:
    ```bash
-   cd /home/chrisg/Hermes/kec-ko-paper-uas
+   cd ~/dev/who-ir
    python3 scripts/retrieval_eval.py kappa \
        --anotator-a data/anotasi/anotator_a_kalibrasi.jsonl \
        --anotator-b data/anotasi/anotator_b_kalibrasi.jsonl
@@ -111,7 +111,7 @@ skrip berhenti dan melaporkan jumlahnya. Jumlah kasus yang diadjudikasi dilapork
 Versi ringkas untuk anotator ada di `PANDUAN_SINGKAT.md` (Bagian 1–3 dan 6 saja).
 
 ```bash
-xdg-open /home/chrisg/Hermes/kec-ko-paper-uas/data/anotasi/anotasi.html
+xdg-open data/anotasi/anotasi.html
 ```
 
 Alat punya **dua mode** dengan kemajuan, total, dan ekspor terpisah:
